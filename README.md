@@ -1,9 +1,11 @@
 # my_PostProcessors
-# Код-аналог PostProcesors в Spring Framework.
+Код-аналог PostProcesors в Spring Framework.
 
-# Для понимания сути сути работы PostProcessors.
+Для понимания сути сути работы PostProcessors.
 
 # Основные моменты программы:
  В начале сканируем папку src/com/kciray для поиска классов, помеченных аннотацией @Component.
+ 
  Создаём по одному экземпляру данных классов и помещаем их в контейнер.
+ 
  С помощью PostProcessors  производим настойку бинов до и после их инициализации.
